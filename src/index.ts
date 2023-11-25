@@ -42,13 +42,7 @@ class AppContainer extends HTMLElement {
                 cell.setAttribute(cellAttributes.color,data.color)
                });
             }
-
-
             catch{}
-            
-        
-
-        
     }
 
     render() {

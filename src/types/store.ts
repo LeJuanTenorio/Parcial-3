@@ -1,7 +1,7 @@
 export type Observer = { render: () => void } & HTMLElement;
 
 export type AppState = {
-  array:[];
+  STORE:string;
 };
 
 export enum CellAction {
